@@ -26,8 +26,8 @@
             ><span class="header-logo-final">Studio</span></a
           >
           <ul class="list description-list">
-            <li class="header-list-item">
-              <a href="./" class="link menu-link active-link">Студія</a>
+            <li class="header-list-item active-li">
+              <a href="./" class="link menu-link active-link studio-link">Студія</a>
             </li>
             <li class="header-list-item">
               <a href="./portfolio.html" class="link menu-link">Портфоліо</a>
@@ -137,6 +137,7 @@
                 alt="зображення вебдодатків"
                 width="370"
               />
+              <p class="services-text">Десктопні додатки</p>
             </li>
             <li class="services-item">
               <img
@@ -444,5 +445,17 @@
         </div>
       </div>
     </footer>
+    <button data-modal-open>open</button>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn" data-modal-close>
+          <svg class="modal-icon" width="18" height="18">
+            <use href="./images/sprite.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
